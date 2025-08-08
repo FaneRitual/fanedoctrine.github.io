@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fane Doctrine Apothecary</title>
+</head>
+<body>
+  <h1>🌿 Fane Doctrine Apothecary</h1>
+  <p>This page will soon house our full herbal collection.</p>
+
+  <ul>
+    <li>🔧 Placeholder for Herb 1</li>
+    <li>🔧 Placeholder for Herb 2</li>
+    <li>🔧 Placeholder for Herb 3</li>
+  </ul>
+
+  <p><a href="/">← Back to Home</a></p>
+</body>
+</html>
