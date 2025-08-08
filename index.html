@@ -1,48 +1,44 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apothecary</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 20px;
-            background: #f9f9f9;
-        }
-        h1 {
-            text-align: center;
-            margin-bottom: 40px;
-        }
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-            gap: 20px;
-        }
-        .card {
-            background: white;
-            border-radius: 8px;
-            padding: 20px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            text-align: center;
-        }
-        .card h2 {
-            font-size: 1.2em;
-            margin: 10px 0;
-        }
-        .card p {
-            color: #666;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fane Doctrine Apothecary</title>
+  <style>
+    body { font-family: sans-serif; background: #fff; padding: 2rem; margin: 0; }
+    h1 { margin-bottom: 1rem; }
+    .herb {
+      border-bottom: 1px solid #ddd;
+      padding: 1rem 0;
+    }
+    .herb h2 { margin-bottom: 0.5rem; }
+    .herb ul { margin: 0.5rem 0 1rem 1rem; }
+    a { text-decoration: none; color: #4CAF50; }
+  </style>
 </head>
 <body>
-    <h1>The Apothecary</h1>
-    <div class="grid">
-        <div class="card"><h2>Herb 1</h2><p>Coming soon...</p></div>
-        <div class="card"><h2>Herb 2</h2><p>Coming soon...</p></div>
-        <div class="card"><h2>Herb 3</h2><p>Coming soon...</p></div>
-        <div class="card"><h2>Herb 4</h2><p>Coming soon...</p></div>
-    </div>
+  <h1>🌿 The Apothecary</h1>
+  <p><a href="/">← Back to Home</a></p>
+
+  <div class="herb" id="kratom">
+    <h2>Kratom (Mitragyna speciosa)</h2>
+    <p>Traditionally used across Southeast Asia, Kratom has been employed in rituals and daily life to support energy, mood, and resilience.</p>
+    <ul>
+      <li>Mitragynine</li>
+      <li>7-Hydroxymitragynine</li>
+      <li>Pseudoindoxyl</li>
+      <li>Speciogynine</li>
+    </ul>
+  </div>
+
+  <div class="herb">
+    <h2>Placeholder for Herb 2</h2>
+    <p>Coming soon...</p>
+  </div>
+
+  <div class="herb">
+    <h2>Placeholder for Herb 3</h2>
+    <p>Coming soon...</p>
+  </div>
 </body>
 </html>
