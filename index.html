@@ -1,60 +1,76 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Fane Doctrine Apothecary</title>
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #111;
-      color: #eee;
       margin: 0;
-      padding: 2rem;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-    }
-
-    h1 {
-      color: #79ffa8;
-      font-size: 3rem;
-      margin-bottom: 1rem;
+      font-family: 'Courier New', monospace;
+      background: url('https://www.transparenttextures.com/patterns/leaf.png') repeat;
+      background-color: #0d0d0d;
+      color: #e0e0e0;
       text-align: center;
-    }
+      padding: 4rem 2rem;
+    }h1 {
+  font-size: 3rem;
+  color: #fff200;
+  margin-bottom: 0.5rem;
+}
 
-    p {
-      max-width: 600px;
-      font-size: 1.15rem;
-      line-height: 1.6;
-      text-align: center;
-      margin-bottom: 2rem;
-    }
+.smiley {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
 
-    a.button {
-      background-color: #79ffa8;
-      color: #000;
-      padding: 0.75rem 1.5rem;
-      text-decoration: none;
-      border-radius: 6px;
-      font-weight: bold;
-      font-size: 1.1rem;
-      transition: background-color 0.3s ease;
-    }
+nav {
+  margin: 2rem 0;
+}
 
-    a.button:hover {
-      background-color: #5ed18c;
-    }
+nav a {
+  color: #ff69b4;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
+}
+
+nav a:hover {
+  border-bottom: 2px solid #ff69b4;
+}
+
+p {
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 2rem auto;
+  line-height: 1.6;
+}
+
+footer {
+  margin-top: 4rem;
+  font-size: 0.9rem;
+  color: #888;
+}
+
   </style>
 </head>
 <body>
-  <h1>🌿 Fane Doctrine Apothecary</h1>
+  <div class="smiley">:)</div>
+  <h1>The Fane Doctrine</h1>
   <p>
-    A modern apothecary rooted in ancient herbal knowledge.<br />
-    Explore ethnobotanicals and plant-based medicines curated for mind, body, and spirit.
+    An unapologetic pursuit of ritual, restoration, and truth.<br />
+    This is not your grandmother's medicine cabinet —<br />
+    this is a manifesto for reclaiming the botanical birthright.
   </p>
-  <a class="button" href="/apothecary">Enter The Apothecary</a>
+  <nav>
+    <a href="/apothecary">Apothecary</a>
+    <a href="/about">About</a>
+    <a href="/journal">Journal</a>
+    <a href="/contact">Contact</a>
+  </nav>
+  <footer>
+    &copy; 2025 Fane Doctrine Apothecary. All Rights Reserved.
+  </footer>
 </body>
 </html>
